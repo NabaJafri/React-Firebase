@@ -1,13 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* container for signup and login */
+.container{
+  border: 0.1px solid black;
+  padding: 50px 50px; 
+  width: 100%;
+  border-radius: 1px;
+}
+.container input{
+  display: block;
+  text-align: center;
+  height: 50px;
+  width: 400px;
+  margin: 10px 10px;
+  border: none;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+  color: rgb(39, 39, 39);
+  letter-spacing: 1px;
+}
+.container button{
+  display: block;
+  height: 50px;
+  width: 370px;
+  margin: 30px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 0.5px solid grey;
+  position: relative;
+  left: 4%;
+  letter-spacing: 1px;
+  border: none;
+}
+.container h1{
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  
+}
+.container span{
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.container .link{
+  margin-left: 7px;
+ 
 }
